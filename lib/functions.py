@@ -1,23 +1,22 @@
-#!/usr/bin/env python3
+# converting js function into python function .
+def greet_Programmer():
+  print('Hello , Programmer!')
+greet_Programmer()
 
-def greet_programmer():
-    pass
-    print ("Hello, programmer!")
+def  greet(name):
+  print(f'Hello , {name}!   ')
+greet('Blushbae')   
 
-def greet(name = "programmer"):
-    pass
-    print(f"Hello, {name}!")
-def greet_with_default(name="programmer"):
-    pass
-    print(f"Hello, {name}!")
+def greet_with_default(name='Programmer'):
+  print(f'Hello , {name}!')
+  return 'Hello , programmer!'
+greet_with_default()
 
-def add(num1, num2):
-    pass
-    return num1 + num2 
-    print ("return")
+def add (num1,num2) :
+  return num1 + num2
+result = add(3,5)
+print(result)
 
-
-def halve(number):
-    pass
-    return number / 2
-    print ("return")
+def halves(num3):
+  return num3/2
+halves(10)
